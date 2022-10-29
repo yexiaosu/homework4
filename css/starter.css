@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16pt;
-  font-family: 'Poppins', 'sans-serif';
 }
 
 main {
@@ -12,7 +11,6 @@ main {
 header {
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  display: flex;
 }
 
 h1 {
@@ -60,7 +58,6 @@ a.skip:focus{
 
 .nav_links {
   margin-bottom: 20px;
-  display: flex;
 }
 
 .nav_item a{
@@ -76,7 +73,6 @@ a.skip:focus{
 
 .pricing{
   min-height: 475px;
-  display: flex;
 }
 
 .card {
@@ -118,7 +114,6 @@ a.skip:focus{
 
 .gallery {
   padding-bottom: 20px;
-  display: flex;
 }
 
 .gallery img {

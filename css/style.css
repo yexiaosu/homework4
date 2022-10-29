@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header {
+    display: flex;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.pricing {
+    display: flex;
+}
+
+.gallery {
+    padding-bottom: 20px;
+}
