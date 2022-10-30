@@ -24,6 +24,8 @@ header img {
     display: flex;
     /* Cards should be stacked */
     flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
 }
 
 /* Cards should be full width */
@@ -35,6 +37,8 @@ header img {
     display: flex;
     /* Images should be stacked */
     flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
 }
 
 /* Images should be full width */
@@ -60,25 +64,13 @@ header img {
         flex-direction: row;
     }
 
-    .pricing {
-        /* Cards should be lined up */
-        flex-shrink: 0;
-        justify-content: center;
-    }
-
     .card {
-        /* Cards should be 300px wide */
+        /* Cards should be 300px wide and be lined up */
         width: 300px;
-    }
-
-    .gallery {
-        /* Images should be lined up */
-        flex-shrink: 0;
-        justify-content: center;
     }
     
     .gallery img {
-        /* Images should be 300px wide */
+        /* Images should be 300px wide and be lined up */
         width: 300px;
     }
 }
