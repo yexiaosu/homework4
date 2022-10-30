@@ -45,8 +45,17 @@ header img {
 /* Desktop View */
 @media (min-width: 700px) {
 
-    /* Header image should be 400px width (auto height) */
+    header {
+        /* Header image is to left, navigation is to right */
+        justify-content: space-between;
+    }
+
     header img {
+        /* Header image should be 400px width (auto height) */
         width: 400px;
+    }
+
+    .nav_links {
+        flex-direction: row;
     }
 }
