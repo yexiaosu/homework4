@@ -9,10 +9,19 @@ header {
     justify-content: center;
 }
 
-/* Header image should be full width (auto height) */
 header img {
+    /* Header image should be full width (auto height) */
     width: 100%;
+    opacity: 1;
+    animation-name: logofade;
+    animation-duration: 3s;
 }
+
+/* The logo image in the header fades in over 3 seconds */
+@keyframes logofade {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
 
 .nav_links {
     display: flex;
@@ -68,7 +77,7 @@ header img {
         /* Cards should be 300px wide and be lined up */
         width: 300px;
     }
-    
+
     .gallery img {
         /* Images should be 300px wide and be lined up */
         width: 300px;
