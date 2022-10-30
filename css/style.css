@@ -19,9 +19,21 @@ header img {
 
 /* The logo image in the header fades in over 3 seconds */
 @keyframes logofade {
-    from {opacity: 1;}
-    to {opacity: 0;}
-  }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* If the user has set prefers reduced motion, the animation should not run */
+@media (prefers-reduced-motion) {
+    header img {
+        animation: none;
+    }
+}
 
 .nav_links {
     display: flex;
