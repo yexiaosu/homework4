@@ -70,4 +70,15 @@ header img {
         /* Cards should be 300px wide */
         width: 300px;
     }
+
+    .gallery {
+        /* Images should be lined up */
+        flex-shrink: 0;
+        justify-content: center;
+    }
+    
+    .gallery img {
+        /* Images should be 300px wide */
+        width: 300px;
+    }
 }
