@@ -56,6 +56,18 @@ header img {
     }
 
     .nav_links {
+        /* Navigation links are lined up */
         flex-direction: row;
+    }
+
+    .pricing {
+        /* Cards should be lined up */
+        flex-shrink: 0;
+        justify-content: center;
+    }
+
+    .card {
+        /* Cards should be 300px wide */
+        width: 300px;
     }
 }
