@@ -73,6 +73,7 @@ header img {
     header {
         /* Header image is to left, navigation is to right */
         justify-content: space-between;
+        align-items: center;
     }
 
     header img {
