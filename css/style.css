@@ -22,6 +22,13 @@ header img {
 
 .pricing {
     display: flex;
+    /* Cards should be stacked */
+    flex-wrap: wrap;
+}
+
+/* Cards should be full width */
+.card {
+    width: 100%;
 }
 
 .gallery {
