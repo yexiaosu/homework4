@@ -41,3 +41,12 @@ header img {
 .gallery img {
     width: 100%;
 }
+
+/* Desktop View */
+@media (min-width: 700px) {
+
+    /* Header image should be 400px width (auto height) */
+    header img {
+        width: 400px;
+    }
+}
