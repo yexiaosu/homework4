@@ -4,6 +4,9 @@ body {
 
 header {
     display: flex;
+    /* Navigation links should be centered and stacked */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Header image should be full width (auto height) */
@@ -13,6 +16,8 @@ header img {
 
 .nav_links {
     display: flex;
+    /* Navigation links should be centered and stacked */
+    flex-direction: column;
 }
 
 .pricing {
