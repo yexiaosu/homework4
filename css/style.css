@@ -6,6 +6,11 @@ header {
     display: flex;
 }
 
+/* Header image should be full width (auto height) */
+header img {
+    width: 100%;
+}
+
 .nav_links {
     display: flex;
 }
